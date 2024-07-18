@@ -1,0 +1,54 @@
+.staffHome {
+    position: relative;
+    min-height: 70vh;
+    margin-top: 74px;
+    background-color: #FFF4E8;
+    padding-bottom: 24px;
+}
+
+.staffHome h1 {
+    padding-top: 24px;
+    margin-left: -62px;
+    color: #A2041b;
+}
+
+.staff-orders-table {
+    width: 92vw;
+    margin-left: -60px;
+}
+
+.staff-orders-table th {
+    background-color: #A2041b;
+    color: #fff4e8;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid #ccc;
+  }
+  
+  .staff-orders-table td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    background-color: #fff4e8;
+    margin-bottom: 20px;
+  }
+
+  .btn-create-new-order {
+    margin-bottom: 16px;
+    padding: 12px;
+    margin-right: -56px;
+  }
+
+  .staffhome-panationing {
+    position: absolute;
+    bottom: 8px;
+    right: 54px;  
+  }
+
+  .staffHome {
+    padding-bottom: 84px;
+  }
+
+  .mw-230px {
+    min-width: 230px;
+  }

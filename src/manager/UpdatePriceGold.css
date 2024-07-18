@@ -1,0 +1,47 @@
+.col-10{
+    position: relative;
+    left: 324px;
+}
+.updatePriceGold{
+    height: 1200px;
+    width: 1200px;
+    background-color: #fff4e8;
+    position: absolute;
+}
+
+.title{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    width: 95%;
+    height: 39.5px;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+    border-left: 10px solid #A2041b;
+}
+.title p{
+    font-weight: 500;
+    position: absolute;
+    top: 7px;
+    left: 15px;
+}
+.updateDetail{
+    width: 95%;
+    height: 650px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+.updateDetail p{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 20px;
+
+
+}

@@ -1,0 +1,519 @@
+.col-10{
+    position: relative;
+    left: 320px;
+    
+}
+.users{
+    height: 1060px;
+    width: 1200px;
+    background-color: #fff4e8;
+    position: absolute;
+    margin-left: -47px;
+}
+.tagResultUsers{
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    width: 223.2px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.tagChild i{
+    color: #fff4e8;
+    font-size: 35px;
+    position: absolute;
+    top: 23px;
+    left: 18px;
+}
+.tagResultUsers h3{
+    position: absolute;
+    font-size: 20px;
+    left: 95px;
+    top: 8px;
+}
+.tagResultUsers p{
+    position: absolute;
+    top: 60px;
+    left: 95px;
+    font-weight: 500;
+}
+
+.usersDetail{
+    width: 95%;
+    min-height: 250px;
+    position: absolute;
+    left: 20px;
+    top: 230px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.customerDetail p {
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    font-weight: 500;
+}
+.search{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-size: 13px;
+  }
+  .addUsers{
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    height: 32.7px;
+    width: 165px;
+    border-radius: 7px;
+    background-color: #9df99d;
+    border: none;
+
+}
+.addUsers i{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+}
+.addUsers p{
+    position: absolute;
+    font-size: 13px;
+    top: 6px;
+    left: 28px;
+    font-weight: 500;
+}
+
+.lol{}
+
+
+
+.modal-user {
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  .modal-user.open {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .modal-user-child {
+    background-color: #fff;
+    width: 1000px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100%-32px);
+  }
+  
+  .modal-user-headerr {
+    background-color: #a2041b;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  .modal-user-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    font-size: 30px;
+  }
+  
+  .modal-user-close:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
+  .modal-user-body {
+    padding: 16px;
+  }
+  .titlee{
+    margin-left: 28px;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  .modal-user-label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .modal-user-input {
+    border: solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+    padding: 16px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  #create-user {
+    background-color: #a2041b;
+    color: #fff;
+    border: none;
+    width: 97%;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 16px;
+  }
+  
+  #create-user:hover {
+    opacity: 0.6;
+  }
+  .modal-user-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .modal-user-body-left,
+  .modal-user-body-right {
+    width: 45%;
+  }
+  
+  .modal-user-body-left .modal-user-label,
+  .modal-user-body-right .modal-user-label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  
+  .modal-user-body-left .modal-user-input,
+  .modal-user-body-right .modal-user-input {
+    border: solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  
+  .modal-user-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .x{
+    margin-top: -28px;
+  }
+  .y{
+    margin-top: 33px;
+}
+.create-combobox-user{
+   margin-top: 78px;
+   margin-left: 510px;
+   font-size: 21px;
+}
+.xx{
+  margin-top: 61px !important;
+
+}
+.cc{
+    margin-top: 170px !important;
+    margin-left: 510px !important;
+    font-size: 12px !important;
+
+}
+.create-combobox-user{
+  margin-top: 380px;
+  margin-left: -21px;
+  font-size: 20px;
+
+}
+.create-combobox-size{
+margin-top: 290px;
+margin-left: 510px;
+font-size: 20px;
+border: none;
+}
+
+.s{}
+
+.modal-user-update {
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.modal-user-update.open {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-user-child-update {
+  background-color: #fff;
+  width: 1000px;
+  min-height: 200px;
+  position: relative;
+  max-width: calc(100%-32px);
+}
+
+.modal-user-headerr-update {
+  background-color: #a2041b;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+.modal-user-close-update {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 12px;
+  font-size: 30px;
+}
+
+.modal-user-close-update:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.modal-user-body-update {
+  padding: 16px;
+}
+
+.modal-user-label-update {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.modal-user-input-update {
+  border: solid #ccc;
+  border-radius: 7px;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+#create-user-update {
+  background-color: #a2041b;
+  color: #fff;
+  border: none;
+  width: 97%;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 16px;
+}
+
+#create-user-update:hover {
+  opacity: 0.6;
+}
+.modal-user-body-update {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.modal-user-body-left-update,
+.modal-user-body-right-update {
+  width: 45%;
+}
+
+.modal-user-body-left-update .modal-user-label-update,
+.modal-user-body-right-update .modal-user-label-update {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.modal-user-body-left-update .modal-user-input-update,
+.modal-user-body-right-update .modal-user-input-update {
+  border: solid #ccc;
+  border-radius: 7px;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.modal-user-button-update {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.x{
+  margin-top: -28px;
+}
+.y{
+  margin-top: 33px;
+}
+.create-combobox-user-update{
+ margin-top: 78px;
+ margin-left: 510px;
+ font-size: 20px;
+}
+.xx{
+margin-top: 28px;
+
+}
+.cc{
+  margin-top: 175px !important;
+  margin-left: 510px !important;
+  font-size: 25px !important;
+
+}
+.create-combobox-user-update{
+margin-top: 380px;
+margin-left: -21px;
+font-size: 20px;
+
+}
+.create-combobox-size-update{
+margin-top: 290px;
+margin-left: 510px;
+font-size: 20px;
+border: none;
+}
+
+
+
+.ll{
+margin-left: 510px !important;
+margin-top: 65px;
+}
+
+.vaiTroCus{
+  position: absolute;
+  font-size: 21px;
+  top: -220px;
+  left: -480px;
+}
+.vt{
+  position: absolute;
+  top: 300px;
+}
+
+
+
+.level{
+  position: relative;
+  margin-left: 250px !important;
+  top: 3px;
+}
+.nameVt{
+  position: relative;
+  top: 45px;
+}
+.lv{
+  position: relative;
+  Left: 200px;
+  top: 10px
+
+}
+.levell{
+  position: relative;
+  top: -276px;
+}
+
+#create-cus{
+margin-left: 13px;
+  width: 97%;
+}
+.levelcc{
+  top: 0px;
+  left: 200px;
+  position: relative;
+
+}
+.levelCbb{
+position: absolute;
+top: -425px;
+left: 40px;
+
+}
+.levelCbbb{
+  position: absolute;
+  top: -400px;
+  left: -20px;
+}
+.errors{
+  color: red;
+}
+.emaill{
+  margin-top: 14px;
+}
+.tableUser {
+  border-style: solid;
+  border-color: #ccc;
+  width: 98%;
+  margin-top: 60px;
+  margin-left: 9px;
+  margin-bottom: 20px;
+  margin-bottom: 80px;
+}
+
+.tableUser td {
+  border: 2px solid #ccc;
+  padding: 8px;
+  text-align: center;
+
+}
+
+.tableUser th {
+  border: 2px solid #ccc;
+  padding: 8px;
+  background-color: #A2041b;
+  color: #fff4e8;
+  text-align: center;
+
+}
+.us h3{
+  margin-top: 15px;
+
+}
+.us p{
+  margin-top: -5px;
+}

@@ -1,0 +1,172 @@
+.cash-detail {
+    margin-top: 74px;
+    background-color: #FFF4E8;
+    min-height: 70vh;
+    padding-bottom: 24px;
+}
+
+.order-detail-info {
+    margin-top: 16px;
+}
+
+.cash-detail-title{
+    margin-left: 52px;
+
+}
+
+.pay-detail-img {
+    width: 50px;
+    height: 50px;
+}
+
+.order-detail-table {
+margin-top: 12px;
+}
+
+.cash-detail-title-page {
+    font-weight: bold;
+    color: #A2041B;
+    margin-left: 48px;
+    padding-top: 12px;
+    margin-bottom: 0;
+}
+
+.pay-confirm {
+    margin-bottom: 16px;
+    margin-right: 52px;
+}
+
+.confirm-btn {
+    padding: 12px;    
+}
+
+.ma-chuyen-khoan {
+    height: 36px;
+    margin-top: -8px;
+}
+
+.anh-minh-chung {
+    margin-top: -4px;
+}
+
+.ml-table {
+    margin-left: 56px;
+}
+
+.payment-history {
+    margin-left: 52px;
+    margin-bottom: 36px;
+}
+
+.payment-history-table {
+    margin-left: 0;
+}
+
+.payment-info {
+    margin-left: 52px;
+    margin-bottom: 16px;
+}
+
+.payment-info-section {
+    margin-right: 56px;
+}
+
+.payment-history-title {
+    padding-top: 8px;
+}
+
+.payinfo-title {
+    margin-left: 52px;
+}
+
+.cash-section {
+    width: 900px;
+}
+
+.cash-section label {
+    width: 100px;
+    margin-top: 8px;
+}
+
+.cash-section input {
+    height: 42px;
+}
+
+.btn-payfull {
+    width: 140px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.btn-pay-confirm {
+    margin-right: 56px;
+}
+
+.bank-section {
+    margin-right: 54px;
+}
+
+.pay-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap; 
+}
+
+.pay-form label {
+    white-space: nowrap; 
+}
+
+.pay-form input[type="text"], 
+.pay-form input[type="number"],
+.pay-form input[type="file"] {
+    flex: 1; 
+}
+
+.bank-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.error-bank {
+    color: red;
+    margin-bottom: 16px;
+}
+
+.error-banktranfer{
+    margin-left: 115px;
+}
+
+.error-bankid {
+    margin-left: 65px;
+}
+
+.error-img {
+    margin-left: -17px;
+}
+
+.error-cash {
+    margin-left: 110px;
+}
+.input-payment {
+    position: relative;
+}
+
+.input-payment-currency {
+    position: absolute;
+    top: 640px;
+    left: 380px;
+    color: #000;
+    pointer-events: none;
+}
+
+.input-payment-currency-cash {
+    position: absolute;
+    top: 640px;
+    right: 740px;
+    color: #000;
+    pointer-events: none;
+}

@@ -1,0 +1,30 @@
+.warranty-policy {
+    margin-top: 74px;
+    background-color: #FFF4E8;
+    padding-bottom: 10px;
+}
+
+.warranty-policy-header {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.warranty-policy-header h1 {
+    font-weight: 700;
+    color: #A2041B;
+}
+
+.warranty-policy-section h3 {
+    color: #A2041B;;
+}
+
+.warranty-policy-section p, .warranty-policy-section ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.warranty-policy-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

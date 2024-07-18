@@ -1,0 +1,33 @@
+.legal-policy {
+    margin-top: 74px;
+    margin-bottom: -8px;
+    height: 70vh;
+    background-color: #FFF4E8;
+}
+
+.legal-commitment-container {
+    margin-top: 50px;
+}
+
+.legal-commitment-header {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.legal-commitment-header h1 {
+    color: #A2041B;
+
+}
+
+.legal-commitment-section {
+}
+
+.legal-commitment-section h3 {
+    color: #A2041B;
+}
+
+.legal-commitment-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}

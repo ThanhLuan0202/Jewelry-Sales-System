@@ -1,0 +1,34 @@
+.warraty {
+    margin-top: 75px;
+    background-color: #FFF4E8;
+    padding-bottom: 90px;
+    padding-top: 24px;
+    margin-left: -96px;
+    position: relative;
+    min-height: 70vh;
+}
+
+.warranty-title-page {
+    color: #A2041B;
+    margin-bottom: 8px;
+}
+
+.xuat-giay-btn {
+    padding: 12px;
+}
+
+.pbh-con-lai {
+    margin-right: 0;
+    padding: 12px;
+    background-color: green;
+    color: #FFF4E8;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.warranty-pationating {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}

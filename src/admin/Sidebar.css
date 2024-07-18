@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+.viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.nav li{
+  background-color: #A2041b;
+
+}
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+  margin-left: 180px;
+}
+
+/* Sidebar Styles */
+
+.sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 324px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #A2041b;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#role{
+    font-size: 14px;
+    margin-top: -25px;
+    margin-bottom: -18px;
+}
+#line{
+    margin-top: 20px;
+    padding-top: -18px;
+    margin-bottom: -8px;
+    height: 1px;
+    width: 280px;
+    margin-left: 14px;
+    background-color: #C6DEFD;
+    opacity: 0.4;
+
+}
+
+.sidebar header {
+  background-color: #A2041b;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar header a:hover {
+  color: #fff;
+}
+
+.sidebar .nav {
+  display: block;
+}
+posbh{
+    
+    background: #fff4e8 !important;
+    margin-bottom: 10px;
+    margin-left: 18px;
+    margin-right: 15px;
+    color: #A2041b !important;
+    font-size: 15px;
+    padding: 11px 24px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    border-radius: 10px;
+
+
+}
+
+.sidebar .nav a {
+  background: none;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 24px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+
+.sidebar .nav a:hover {
+  background: none;
+  background-color: #fff4e8;
+  color:#A2041b;
+  border-radius: 10px;
+}
+
+.sidebar .nav a i {
+  margin-right: 16px;
+}
+
+.sidebar .nav li.sidebarActive {
+  background-color: #fff4e8;
+  color: #A2041b !important;
+  border-radius: 10px;
+  width: 294px;
+  margin-left: 15px;
+}
+
+.sidebarActive p,
+.sidebarActive i{
+  color: #A2041b !important;
+}

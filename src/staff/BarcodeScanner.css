@@ -1,0 +1,30 @@
+.scan-barcode {
+    min-height: 40vh;
+    background-color: #fff4e8;
+    position: fixed;
+    margin-left: 30vw;
+    margin-top: 18vh;
+    padding: 12px 12px 4px 12px;
+    border-radius: 8px solid black;
+}
+
+.out-video {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close-video {
+    font-size: 18px;
+    padding: 12px 12px;
+}
+
+.header-scan {
+    justify-content: space-between;
+    margin-bottom: -16px;
+    padding-bottom: -8px;
+}

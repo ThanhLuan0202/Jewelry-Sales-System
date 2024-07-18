@@ -1,0 +1,60 @@
+.report-container {
+    background-color: #fff4e8;
+    min-height: 103vh;
+    margin-left: 280px;
+    max-width: 79vw;
+    
+}
+
+.send-report-btn {
+    margin-top: 80px;
+    position: absolute;
+    right: 11px;
+}
+
+.title-report {
+    margin-left: 326px;
+    max-width: 75%;
+}
+
+.items-report {
+    margin-top: 140px;
+    margin-left: 14px;
+    flex-wrap: wrap;
+}
+
+.report-item {
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 14px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.report-item-symbol {
+    background-color: #A2041B;
+    padding: 12px 30px;
+    border-radius: 20px;
+    margin: 8px;
+    color: #fff;
+    font-size: 36px;
+}
+
+.report-content {
+    margin-top: 24px;
+}
+
+.chart-title {
+    color: #A2041B;
+}
+
+.chart {
+    max-width: 92vw;
+    margin-left: 0;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.z-index-cao {
+    z-index: 1000;
+}

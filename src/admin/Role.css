@@ -1,0 +1,275 @@
+.col-10{
+    position: relative;
+    left: 320px;
+}
+.role{
+  height: 720px;
+  width: 1217px;
+    background-color: #fff4e8;
+    position: absolute;
+    margin-left: -47px;
+}
+.tagResultRole{
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    width: 223.2px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.tagChild i{
+    color: #fff4e8;
+    font-size: 35px;
+    position: absolute;
+    top: 23px;
+    left: 18px;
+    display: block; /* Để giúp căn giữa theo chiều ngang */
+    margin: 0 auto;
+}
+.tagResultRole h3{
+    position: absolute;
+    font-size: 20px;
+    left: 95px;
+    top: 18px;
+}
+.tagResultRole p{
+    position: absolute;
+    top: 50px;
+    left: 95px;
+    font-weight: 500;
+}
+
+.roleDetail{
+    width: 93.8%;
+    height: 246px;
+    position: absolute;
+    left: 20px;
+    top: 230px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.roleDetail p {
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    font-weight: 500;
+}
+.search{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-size: 13px;
+  }
+  .addRole{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    height: 32.7px;
+    width: 130px;
+    border-radius: 7px;
+    background-color: #9df99d;
+    border: none;
+
+}
+.addRole i{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+}
+.addRole p{
+    position: absolute;
+    font-size: 13px;
+    top: 6px;
+    left: 28px;
+    font-weight: 500;
+}
+
+.lol{}
+
+
+
+.modal-role {
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .modal-role.open {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+  .modal-child-role {
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100%-32px);
+  }
+  .modal-role-headerr {
+    background-color: #a2041b;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+  }
+  .modal-role-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    font-size: 30px;
+  }
+  .modal-role-close:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .modal-role-body {
+    padding: 16px;
+  }
+  .modal-role-label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  
+  .modal-role-input {
+    border: solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  #create-role {
+    background-color: #a2041b;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  #create-role:hover{
+    opacity: 0.6;
+  
+  }
+
+  .kk{}
+
+
+  .modal-role-update {
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .modal-role-update.open {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+  .modal-child-role-update {
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100%-32px);
+  }
+  .modal-role-headerr-update {
+    background-color: #a2041b;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+  }
+  .modal-role-close-update {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    font-size: 30px;
+  }
+  .modal-role-close-update:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .modal-role-body-update {
+    padding: 16px;
+  }
+  .modal-role-label-update {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  
+  .modal-role-input-update {
+    border: solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  #create-role-update {
+    background-color: #a2041b;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  #create-role-update:hover{
+    opacity: 0.6;
+  
+  }
+
+  .modal-status-input-update {
+    border: solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  .mb40{
+    margin-top: -47px;
+  }
+  #titleRole{
+    width: 93.8%;
+
+  }

@@ -1,0 +1,310 @@
+.col-10 {
+    position: relative;
+    left: 320px;
+}
+
+.warranty {
+    height: 980px;
+    width: 1200px;
+    background-color: #fff4e8;
+    position: absolute;
+    margin-left: -47px;
+}
+
+.title {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    width: 95%;
+    height: 39.5px;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+    border-left: 10px solid #A2041b;
+
+}
+
+.tagResultOut {
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    width: 316.2px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.tagResultNow {
+    position: absolute;
+    left: 520px;
+    height: 100px;
+    width: 223.2px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.tagResulHave {
+    position: absolute;
+    left: 359px;
+    height: 100px;
+    width: 315.2px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title p {
+    font-weight: 500;
+    position: absolute;
+    top: 7px;
+    left: 15px;
+}
+
+.tagResulHave h3 {
+    margin-top: 15px;
+
+}
+
+.tagResulHave p {
+    margin-top: -8px;
+
+}
+
+.tagResultOut h3 {
+    margin-top: 15px;
+
+}
+
+.tagResultOut p {
+    margin-top: -8px;
+}
+
+.tagResult {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    top: 100px;
+}
+
+.tagChild {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 80px;
+    height: 85px;
+    border-radius: 7px;
+    background-color: #A2041b;
+}
+
+.tagChild i {
+    color: #fff4e8;
+    font-size: 35px;
+    position: absolute;
+    top: 23px;
+    left: 22px;
+}
+
+.tagResult h3 {
+    position: absolute;
+    font-size: 20px;
+    left: 95px;
+    top: 8px;
+}
+
+.tagResultOut p {
+    position: absolute;
+    top: 60px;
+    left: 95px;
+    font-weight: 500;
+}
+
+.tagResultNow p {
+    position: absolute;
+    top: 60px;
+    left: 95px;
+    font-weight: 500;
+}
+
+.tagResulHave p {
+    position: absolute;
+    top: 60px;
+    left: 95px;
+    font-weight: 500;
+}
+
+.warrantyDetail {
+    width: 95%;
+    min-height: 250px;
+    position: absolute;
+    left: 20px;
+    top: 230px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.warrantyDetail p {
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    font-weight: 500;
+
+
+}
+
+.table-warranty th {
+    background-color: #A2041b;
+    color: #fff4e8;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid #ccc;
+}
+
+.table-warranty td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    background-color: #fff4e8;
+}
+
+.search {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-size: 13px;
+
+}
+
+.search button {
+    position: absolute;
+    border: none;
+    font-size: 16px;
+    background-color: #A2041b;
+    color: #fff4e8;
+    margin-left: 5px !important;
+}
+
+.warrantyOut {
+
+    width: 95%;
+    height: 300px;
+    position: absolute;
+    left: 20px;
+    top: 1330px;
+    background-color: #fff4e8;
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.warrantyOut p {
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    font-weight: 500;
+
+}
+
+.table-warranty {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    margin-left: -20px !important;
+    width: 1120px !important;
+    font-size: 14px;
+
+}
+
+.eyeDetail {
+    background-color: #fff4e8;
+}
+
+.tbRW {
+    margin-top: -20px !important;
+}
+
+.tbLW {
+    margin-top: -20px !important;
+}
+
+.tbwr {
+    width: 700px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.tbwl {
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 35px;
+
+}
+
+.ttwr {
+    margin-top: 300px !important;
+}
+
+.tbwl td,
+.tbwr td {
+    text-align: left !important;
+}
+
+.wrt1 {
+    margin-left: 6px !important;
+}
+
+.wrt2 {
+    margin-left: 5px !important;
+
+}
+
+.tableWarranty {
+    border-style: solid;
+    border-color: #ccc;
+    width: 98%;
+    margin-top: 100px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+.tableWarranty td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.tableWarranty th {
+    border: 2px solid #ccc;
+    padding: 8px;
+    background-color: #A2041b;
+    color: #fff4e8;
+    text-align: center;
+
+}
+
+.btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.tbwr td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.tbwl td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.bdwrt {
+    padding-bottom: 35px !important;
+}

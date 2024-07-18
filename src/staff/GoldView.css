@@ -1,0 +1,56 @@
+.bang-gia-vang {
+    background-color: #FFF4E8;
+    margin-top: 76px;
+    position: relative;
+    padding-bottom: 8px;
+    min-height: 70vh;
+}   
+
+.table-price-l {
+    margin-top: 12px;
+}
+
+.gold-price-table {
+    margin-left: 5vw;
+}
+
+.info {
+    bottom: 50px;
+    position: absolute;
+}
+
+.table-price-l .table-l thead th {
+    color: #A2041B;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #FFF4E8;
+    border-bottom: 0.5px #A2041B solid;
+}
+
+.table-price-l .table td, .table-l th, .table-l td {
+    font-weight: 500;
+    background-color: #FFF4E8;
+    border-bottom: 0.5px orange solid;;
+    padding: 15px 100px;
+}
+
+.table-l tr:last-child td {
+    border-bottom: none !important;
+}
+
+.title-h3-3{
+    font-weight: bold;
+    font-size: 40px;
+    color: #A2041B;
+    margin: 16px auto;
+}
+
+.row {
+    width: 200vh;
+    margin-left: 40px;
+}
+
+.don-vi-tinh {
+    text-align: right;
+    margin-right: 40px;
+}

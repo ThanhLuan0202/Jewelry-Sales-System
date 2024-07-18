@@ -1,0 +1,92 @@
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+
+.login-form {
+  height: 100%;
+  width: 100%;
+}
+
+.bg {
+  background-color: #FFF4E8;
+  max-height: 72vh;
+  position: absolute; 
+  top: 90px;
+  bottom: 0;
+  left: 0;
+  right: 35px;
+  margin: auto;
+  border: 2px solid #A2041B;
+}
+
+.img-logo {
+  margin-top: 20vh;
+  width: 34vw;
+}
+
+
+.img-logo img {
+  height: 100%;
+  width: 50vh;
+  margin: 74px 0 0 0;
+}
+
+.login {
+  width: 100%;
+  margin-right: 48px;
+}
+
+.diamond {
+  font-size: 60px;
+  color: #A2041B;
+}
+
+.abc {
+  margin-top: 40px;
+}
+
+.screen {
+  background-color: #A2041B;
+}
+
+.out-background {
+  background-color: #FFF4E8;
+  width: 220vh;
+  height: 100vh;
+}
+
+.btn-login {
+  background-color: #A2041B;
+  color: orange;
+  font-weight: bold;
+  height: 50px;
+}
+
+.btn-login:hover {
+  background-color: #6b0413;
+  color: while;
+  font-weight: bold;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.forget {
+  margin-top: 32px;
+}
+
+.forget-btn {
+  padding: 10px;
+  margin-top: 24px;
+}

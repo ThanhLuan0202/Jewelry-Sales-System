@@ -1,0 +1,365 @@
+.col-10 {
+  position: relative;
+  left: 320px;
+}
+.customer {
+  height: 980px;
+  width: 1200px;
+  background-color: #fff4e8;
+  position: absolute;
+  margin-left: -47px;
+}
+
+.title {
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  width: 95%;
+  height: 39.5px;
+  border-radius: 7px;
+  box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+  border-left: 10px solid #a2041b;
+}
+.title p {
+  font-weight: 500;
+  position: absolute;
+  top: 7px;
+  left: 15px;
+}
+.skh{
+  top: 18px !important;
+}
+.skhct{
+  top: 43px !important;
+}
+.tagResultCustomer {
+  position: absolute;
+  left: 20px;
+  height: 100px;
+  width: 243.2px;
+  background-color: #fff4e8;
+  border-radius: 7px;
+  box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.tagChild i {
+  color: #fff4e8;
+  font-size: 35px;
+  position: absolute;
+  top: 23px;
+  left: 18px;
+}
+.tagResultCustomer h3 {
+  position: absolute;
+  font-size: 20px;
+  left: 95px;
+  top: 8px;
+}
+.tagResultCustomer p {
+  position: absolute;
+  top: 60px;
+  left: 95px;
+  font-weight: 500;
+}
+
+.customerDetail {
+  width: 95%;
+  min-height: 250px;
+  position: absolute;
+  left: 20px;
+  top: 230px;
+  background-color: #fff4e8;
+  border-radius: 7px;
+  box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.customerDetail p {
+  position: absolute;
+  top: 13px;
+  left: 25px;
+  font-weight: 500;
+}
+.search button {
+  position: absolute;
+  border: none;
+  font-size: 16px;
+  background-color: #a2041b;
+  color: #fff4e8;
+}
+.search input{
+  font-size: 16px; 
+  padding: 1px 6px; 
+  width: 180px; 
+  margin-left: -20px;
+}
+
+.table {
+  position: absolute;
+  width: 95%;
+  top: 100px;
+  left: 30px;
+}
+.table th {
+  background-color: #a2041b;
+  color: #fff4e8;
+  text-align: center;
+  padding: 8px;
+  border: 2px solid #ccc;
+}
+
+.table td {
+  border: 2px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  background-color: #fff4e8;
+}
+.search {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  font-size: 13px;
+}
+.search:hover{
+    opacity: 0.8;
+
+}
+.addCustomer {
+  position: absolute;
+  top: 48px;
+  left: 202px;
+  height: 30px;
+  width: 170px;
+  border-radius: 7px;
+  background-color: #9df99d;
+  border: none;
+}
+.addCustomer i {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.addCustomer:hover{
+    opacity: 0.8;
+
+}
+
+.addCusP{
+    position: absolute;
+    font-size: 13px;
+    top: 6px !important;
+    left: 30px !important;
+    font-weight: 500;
+}
+.modal {
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+   
+  }
+  
+  .modal.open {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .modal-child {
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100%-32px);
+  }
+  
+  .modal-headerr {
+    background-color: #a2041b;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  .modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    font-size: 30px;
+  }
+  
+  .modal-close:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
+  .modal-body {
+    padding: 16px;
+  }
+  
+  .modal-label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  
+  .modal-input {
+    border: solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  
+  #create-cus {
+    background-color: #a2041b;
+    color: #fff;
+    border: none;
+    width: 100% !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 0px !important;
+    height: 45px;
+  }
+  
+  #create-cus:hover {
+    opacity: 0.6;
+  }
+
+
+
+  .modal-update {
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+   
+  }
+  
+  .modal-update.open {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .modal-child-update {
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100%-32px);
+  }
+  
+  .modal-headerr-update {
+    background-color: #a2041b;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  .modal-close-update {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    font-size: 30px;
+  }
+  
+  .modal-close-update:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
+  .modal-body-update {
+    padding: 16px;
+  }
+  
+  .modal-label-update {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  
+  .modal-input-update {
+    border: solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  
+  #create-cus-update {
+    background-color: #a2041b;
+    color: #fff;
+    border: none;
+    width: 100% !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 0px !important;
+    height: 45px;
+  }
+  
+  #create-cus-update:hover {
+    opacity: 0.6;
+  }
+
+  .tableCustomer {
+    border-style: solid;
+    border-color: #ccc;
+    width: 98%;
+    margin-top: 100px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .tableCustomer td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  
+  }
+  
+  .tableCustomer th {
+    border: 2px solid #ccc;
+    padding: 8px;
+    background-color: #A2041b;
+    color: #fff4e8;
+    text-align: center;
+  
+  }
+  .addKh{
+    margin-left: 892px !important;
+  }
+  .deleteKh{
+    margin-left: 905px !important;
+  }
+  .updateKh{
+    margin-left: 869px !important;
+  }

@@ -1,0 +1,87 @@
+.logo-staff{
+    max-width: 60px;
+    margin: 0 12px;
+}
+
+.nav-container-staff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    border-top: 4px solid #A2041B;
+    border-bottom: 1px solid #A2041B;
+    padding: 0;
+    z-index: 10;
+}
+
+.nav-item {
+    padding: 12px;  
+    text-decoration: none;
+}
+
+.nav-item.nav-active a{
+    font-weight: bold;
+    color: orange; 
+}
+
+.nav-item a{
+    font-size: 20px;  
+}
+
+.nav-item:hover {
+    background-color: #A2041B; 
+}
+
+.nav-item:hover a{
+    color: orange;
+}
+
+.navbar-staff {
+    width: 100%;
+}
+
+.nav-user-staff {
+    margin-left: auto;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #A2041B;
+}
+
+.user-name {
+    margin-left: 12px;
+    margin-right: 4px;
+    font-size: 20px;
+}
+
+.btn-logout {
+    font-size: 20px;
+    padding: 16px;
+    margin-right: 4px;
+    border: 1px solid #A2041B;
+}
+
+.btn-logout:hover, .nav-active{
+    color: orange;
+    background-color: #A2041B; 
+}   
+
+.orange-color {
+    color: orange;
+}
+
+.bc-primary {
+    background-color: #FFF4E8;
+}
+
+.big-logo {
+    max-width: 200px;
+}
+
+.margin-right {
+    margin-right: 8px;
+}

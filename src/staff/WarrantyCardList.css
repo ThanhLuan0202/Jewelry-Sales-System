@@ -1,0 +1,39 @@
+.warrantyCardList {
+    margin-top: 75px;
+    background-color: #FFF4E8;
+    padding: 0 40px;
+    padding-bottom: 24px;
+    min-height: 70vh
+}
+
+.warranty-card {
+    background-color: #FFF;
+    width: 45vw;
+    border: 1px solid orange;
+    margin-bottom: 20px;
+}
+.warrantyCardList-title {
+    margin-left: -4px;
+    color: #A2041B;
+    padding-left: 60px;
+}
+
+.warranty-card-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.phieu-bao-hanh-header {
+    color: #A2041B;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.axy {
+    margin: 0px 12px !important;
+}
+
+.bd-r {
+    border-right: 2px solid #A2041B;
+}
